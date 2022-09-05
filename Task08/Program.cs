@@ -20,9 +20,7 @@ while (num > 1 && count != num)
     {
         count = count + 2;
         Console.Write($"{count}, ");
+        count = count  ++;
     }
-    else{
-        count = count ++;
-    }
-    num = num -2;
+   
 }
